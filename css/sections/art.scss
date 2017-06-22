@@ -1,0 +1,86 @@
+.art {
+    background-image: url('../../img/bg/art.jpg');
+    height: 100vh;
+    min-height: 650px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        width: 48%;
+        text-align: center;
+    }
+    &__title {
+        font-size: 42px;
+        color: #56534c;
+        font-family: playfair_displaybold;
+        margin-bottom: 20px;
+    }
+    &__description {
+        font-size: 14px;
+        font-family: alegreyaregular;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #a47d5e;
+        margin-bottom: 70px;
+    }
+    &__text {
+        font-family: proxima_nova_rgregular;
+        color: #56534c;
+        line-height: 1.6;
+        margin-bottom: 50px;
+    }
+    &__chef-cook {
+        font-family: alegreyaregular;
+        font-weight: bold;
+        font-size: 24px;
+        color: #615e58;
+        margin-bottom: 25px;
+    }
+    &__info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: alegreyaregular;
+        font-size: 24px;
+        color: #56534c;
+        margin-bottom: 20px;
+    }
+    &__image {
+        width: 100px;
+        height: 100px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        margin: 0 25px;
+    }
+    &__first-name {
+        padding: 20px;
+        border-top: 1px solid #56534c;
+        border-bottom: 1px solid #56534c;
+    }
+    &__second-name {
+        padding: 20px;
+        border-top: 1px solid #56534c;
+        border-bottom: 1px solid #56534c;
+    }
+    &__phrase {
+        font-family: scriptinaregular;
+        font-size: 24px;
+        color: #ab886c;
+        padding: 0 80px;
+    }
+    &__right {
+        // width: 515px;
+        width: 48%;
+        height: 440px;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

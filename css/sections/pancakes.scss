@@ -1,0 +1,80 @@
+.menu {
+    background-image: url('../../img/bg/pancakes.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    min-height: 650px;
+    &__main-title {
+        padding-top: 100px;
+        text-align: center;
+        font-family: alegreyaregular;
+        font-weight: bold;
+        color: #56534c;
+        font-size: 62px;
+    }
+    &__item {
+        padding: 100px 50px 0 100px;
+        display: flex;
+        position: relative;
+    }
+    &__item-image {
+        width: 40%;
+        height: 450px;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 10px 0 0 10px;
+    }
+    &__item-right {
+        width: 50%;
+        padding: 30px 50px;
+        border-radius: 0 10px 10px 0;
+    }
+    &__title {
+        font-size: 42px;
+        color: #56534c;
+        font-family: alegreyaregular;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    &__description {
+        font-size: 14px;
+        font-family: alegreyaregular;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #a47d5e;
+        margin-bottom: 50px;
+    }
+    &__text {
+        font-family: proxima_nova_rgregular;
+        color: #56534c;
+        line-height: 1.6;
+    }
+    &__time {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 150px;
+        height: 150px;
+        transform: translate(-50%, 20%);
+        background-size: cover;
+        background-position: center center;
+        text-align: center;
+        font-family: alegreyaregular;
+        border-radius: 10px;
+    }
+    &__time-text {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #a47d5e;
+    }
+    &__time-minute {
+        color: #dfc691;
+        font-size: 72px;
+        font-weight: bold;
+    }
+    &__time-measure {
+        color: #979285;
+    }
+}

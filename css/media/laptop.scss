@@ -1,0 +1,32 @@
+@media screen and (max-width: 1080px) {
+    .container {
+        width: 728px;
+    }
+    .header__item {
+        padding-left: 30px;
+    }
+    .breakfast__menu-line {
+        width: 260px;
+    }
+    .menu__main-title {
+        padding-top: 110px;
+    }
+    .menu__description {
+        margin-bottom: 25px;
+    } 
+    .menu__time {
+        right: -15px;
+        width: 130px;
+        height: 130px;
+    }
+    .menu__item-right {
+        padding-bottom: 0px;
+        padding-left: 15px;
+    }
+    .breakfast__wheat {
+        bottom: 135px;
+    }
+    .breakfast__left {
+        padding-right: 20px;
+    }
+}

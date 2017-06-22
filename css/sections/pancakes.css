@@ -1,0 +1,73 @@
+.menu {
+  background-image: url("../../img/bg/pancakes.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  min-height: 650px; }
+  .menu__main-title {
+    padding-top: 100px;
+    text-align: center;
+    font-family: alegreyaregular;
+    font-weight: bold;
+    color: #56534c;
+    font-size: 62px; }
+  .menu__item {
+    padding: 100px 50px 0 100px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative; }
+  .menu__item-image {
+    width: 40%;
+    height: 450px;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 10px 0 0 10px; }
+  .menu__item-right {
+    width: 50%;
+    padding: 30px 50px;
+    border-radius: 0 10px 10px 0; }
+  .menu__title {
+    font-size: 42px;
+    color: #56534c;
+    font-family: alegreyaregular;
+    font-weight: bold;
+    margin-bottom: 15px; }
+  .menu__description {
+    font-size: 14px;
+    font-family: alegreyaregular;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a47d5e;
+    margin-bottom: 50px; }
+  .menu__text {
+    font-family: proxima_nova_rgregular;
+    color: #56534c;
+    line-height: 1.6; }
+  .menu__time {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 150px;
+    height: 150px;
+    -webkit-transform: translate(-50%, 20%);
+    -ms-transform: translate(-50%, 20%);
+    transform: translate(-50%, 20%);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    font-family: alegreyaregular;
+    border-radius: 10px; }
+  .menu__time-text {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #a47d5e; }
+  .menu__time-minute {
+    color: #dfc691;
+    font-size: 72px;
+    font-weight: bold; }
+  .menu__time-measure {
+    color: #979285; }

@@ -1,0 +1,97 @@
+@media screen and (max-width: 480px) {
+    .container {
+        width: 95%;
+        // padding-bottom: 10px;
+    }
+    .intro {
+        &__title {
+            margin-bottom: 15px;
+        }
+        &__line {
+            margin-bottom: 15px;
+        }
+    }
+    .art__image {
+        margin: 0;
+        min-width: 100px;
+    }
+    .menu__title {
+        font-size: 32px;
+    }
+    .breakfast__menu-content {
+        padding: 0;
+    }
+    .breakfast__menu-description {
+        margin-bottom: 15px;
+    }
+    .breakfast__menu-button {
+        margin-bottom: 15px;
+    }
+    .breakfast-review {
+        width: 300px;
+    }
+    .sandwich {
+        &__content {
+            display: block;
+        }
+        &__left {
+            width: 100%;
+        }
+        &__composition {
+            font-size: 24px;
+        }
+        &__list {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        &__item {
+            padding: 0 5px;
+        }
+        &__right {
+            width: 100%;
+        }
+        &__prepare {
+            width: 100px;
+            height: 100px;
+            top: 5%;
+        }
+        &__header-image {
+            width: 100%;
+        }
+        &__header-farm {
+            width: 95%;
+        }
+        &__cook {
+            width: 100px;
+            height: 100px;
+        }
+        &__ready {
+            width: 100px;
+            height: 100px;
+        }
+        &__ready-time {
+            font-size: 52px;
+        }
+        &__picture {
+            height: 400px;
+        }
+        &__recipe {
+            left: 30%;
+        }
+    }
+    .sandwich-review {
+        width: 300px;
+    }
+    .footer {
+        &__left {
+            padding: 5px 0 0 0;
+        }
+        &__right {
+            padding: 5px 0 0 0 !important;
+        }
+        &__item {
+            padding-left: 25px;
+        }
+    }
+}

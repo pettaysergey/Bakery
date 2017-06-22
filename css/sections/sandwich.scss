@@ -1,0 +1,204 @@
+.sandwich {
+    background-color: #f3f1e9;
+    height: 100vh;
+    min-height: 950px;
+    position: relative;
+    &__header {
+        text-align: center;
+        padding-top: 60px;
+    }
+    &__header-image {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__title {
+        font-family: alegreyaregular;
+        font-weight: bold;
+        color: #56534c;
+        font-size: 44px;
+        margin-bottom: 10px;
+    }
+    &__description {
+        font-size: 14px;
+        font-family: alegreyaregular;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #a47d5e;
+    }
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__left {
+        text-align: center;
+        width: 30%;
+    }
+    &__right {
+        width: 60%;
+        height: 100%;
+        border: 10px solid #fff;
+        position: relative;
+    }
+    &__picture {
+        height: 500px;
+    }
+    &__item {
+        margin-bottom: 40px;
+    }
+    &__image {
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        background-position: center center;
+        border-radius: 50%;
+    }
+    &__composition {
+        font-family: alegreyaregular;
+        font-weight: bold;
+        color: #a47d5e;
+        font-size: 30px;
+        margin: 10px 0 15px 0;
+    }
+    &__composition-desk {
+        font-family: proxima_nova_rgregular;
+        color: rgb(86, 83, 76);
+    }
+    &__recipe {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: translate(-50%, 50%);
+        display: inline-block;
+        padding: 20px;
+        background-color: #fff;
+        border: 1px dashed #dfc691;
+        border-radius: 5px;
+        font-family: alegreyaregular;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: #dfc691;
+        transition: 1s;
+        transition-property: initial;
+        transition-duration: 1s;
+        transition-timing-function: initial;
+        transition-delay: initial;
+        &:hover {
+            font-size: 20px;
+        }
+    }
+    &__prepare {
+        position: absolute;
+        top: -5%;
+        right: 0;
+        background-color: rgba(255, 255, 255, .8);
+        width: 180px;
+        height: 180px;
+        text-align: center;
+        font-family: alegreyaregular;
+    }
+    &_title {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #a47d5e;
+    }
+    &_time {
+        font-size: 52px;
+        font-weight: bold;
+        color: #56534c;
+    }
+    &_measure {
+        color: #979285;
+    }
+    &__cook {
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        background-color: rgba(255, 255, 255, .8);
+        width: 180px;
+        height: 180px;
+        text-align: center;
+        font-family: alegreyaregular;
+    }
+    &__ready {
+        position: absolute;
+        top: 69%;
+        right: 0;
+        background-image: url('../../img/content/field.png');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 180px;
+        height: 180px;
+        text-align: center;
+        font-family: alegreyaregular;
+    }
+    &__ready-time {
+        color: #dfc691;
+        font-size: 72px;
+        font-weight: bold;
+    }
+}
+
+.sandwich-container {
+    height: calc(100% - 100px);
+}
+
+.footer {
+    height: 100px;
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__left,
+    .footer__right {
+        display: flex;
+        width: 35%;
+        justify-content: space-between;
+        padding: 15px 0;
+        border-top: 1px solid #56534c;
+        border-bottom: 1px solid #56534c;
+    }
+    &__center {
+        display: inline-block;
+        text-align: center;
+        font-size: 30px;
+        font-family: scriptinaregular;
+        color: #56534c;
+        letter-spacing: 4px;
+    }
+    &__link {
+        font-size: 14px;
+        font-family: alegreyaregular;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #56534c;
+    }
+}
+
+// fancybox 
+.sandwich-review {
+    width: 600px;
+    border-radius: 20px;
+    background-image: url('../../img/bg/art.jpg');
+    background-size: cover;
+    &__title {
+        font-size: 24px;
+        color: #56534c;
+        font-family: alegreyaregular;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    &__text {
+        font-family: proxima_nova_rgregular;
+        color: #56534c;
+        line-height: 1.6;
+    }
+}

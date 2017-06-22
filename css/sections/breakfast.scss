@@ -1,0 +1,140 @@
+    .breakfast {
+        background-image: url('../../img/bg/breakfast.jpg');
+        height: 100vh;
+        min-height: 650px;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        &__content {
+            display: flex;
+            justify-content: space-between;
+        }
+        &__left {
+            text-align: center;
+        }
+        &__right {
+            width: 45%;
+        }
+        &__title {
+            color: #fff;
+            font-size: 52px;
+            font-family: alegreyaregular;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+        &__title-description {
+            font-size: 14px;
+            font-family: alegreyaregular;
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #a47d5e;
+            margin-bottom: 60px;
+        }
+        &__item {
+            margin-bottom: 10px;
+        }
+        &__menu {
+            background-color: #f3f1e9;
+            height: 100%;
+            padding: 15px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 0 20px rgba(200, 200, 200, 0.9);
+            overflow: hidden;
+        }
+        &__menu-content {
+            width: 100%;
+            height: 100%;
+            border: 1px dashed #aaa7a7;
+            padding: 30px;
+        }
+        &__menu-top {
+            display: flex;
+            justify-content: space-around;
+            font-size: 14px;
+            text-transform: uppercase;
+            font-family: alegreyaregular;
+            font-weight: bold;
+            color: #56534c;
+            margin-top: 15px;
+        }
+        &__menu-title {
+            font-family: alegreyaregular;
+            font-weight: bold;
+            font-size: 44px;
+            color: #56534c;
+            margin: 30px 0 20px 0;
+        }
+        &__menu-description {
+            font-family: proxima_nova_rgregular;
+            color: #56534c;
+            line-height: 1.6;
+            margin-bottom: 65px;
+        }
+        &__menu-button {
+            display: inline-block;
+            padding: 20px 70px;
+            border: 1px solid #56534c;
+            border-radius: 5px;
+            font-family: alegreyaregular;
+            font-weight: bold;
+            font-size: 18px;
+            text-transform: uppercase;
+            color: #a98567;
+            transition: 1s;
+            transition-property: initial;
+            transition-duration: 1s;
+            transition-timing-function: initial;
+            transition-delay: initial;
+            &:hover {
+                background-color: rgba(86, 83, 76, .2);
+            }
+        }
+        &__wheat {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            transform: translate(60%, 10%);
+        }
+    }
+    
+    .item-name {
+        color: #fff;
+        font-size: 24px;
+        font-family: alegreyaregular;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    
+    .item-description {
+        font-family: proxima_nova_rgregular;
+        color: #aaa7a7;
+        margin-bottom: 10px;
+    }
+    
+    .item-price {
+        font-family: alegreyaregular;
+        color: #dfc691;
+        font-size: 36px;
+    }
+    
+    // fancybox 
+    .breakfast-review {
+        width: 600px;
+        border-radius: 10px;
+        background-image: url('../../img/bg/art.jpg');
+        background-size: cover;
+        font-family: proxima_nova_rgregular;
+        color: #56534c;
+        line-height: 1.6;
+        &__title {
+            font-family: alegreyaregular;
+            font-weight: bold;
+            font-size: 24px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        &__text {
+            font-family: proxima_nova_rgregular;
+        }
+    }
